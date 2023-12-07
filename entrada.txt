@@ -1,0 +1,16 @@
+/*
+programa calcula o fatorial de um numero lido
+*/
+algoritmo exemplo1;
+ variavel fat,num,cont:inteiro;
+inicio
+leia(num);
+fat := 1;
+cont := 2;
+enquanto( cont <= num ) faca
+inicio
+ fat := fat*cont;
+ cont := cont + 1
+fim;
+escreva(fat) // imprime o fatorial calculado
+fim.
